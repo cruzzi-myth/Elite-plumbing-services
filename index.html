@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elite Plumbing Services – Licensed, insured, and available 24/7 for all your plumbing needs. Emergency repairs, installations, and more." />
+  <meta name="keywords" content="plumbing, emergency plumber, pipe repair, drain cleaning, water heater, Your City plumber" />
+  <title>Elite Plumbing Services | Licensed & Insured Plumbers</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- EMERGENCY BANNER -->
+  <div class="emergency-bar">
+    <div class="eb-inner">
+      <div class="eb-left">
+        <i class="fas fa-phone-alt"></i>
+        <span>24/7 Emergency Service:</span>
+        <a href="tel:+15550001234" class="eb-phone">(555) 000-1234</a>
+      </div>
+      <div class="eb-right">
+        <form class="location-search" id="locationForm">
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" placeholder="Enter your ZIP or city..." id="locationInput" />
+          <button type="submit">Find Pros</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon"><i class="fas fa-wrench"></i></span>
+        <span class="logo-text">Elite <span class="accent">Plumbing</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-badge"><i class="fas fa-shield-alt"></i> Licensed &amp; Insured</div>
+        <h1>Your Trusted <span class="accent">Plumbing</span> Experts</h1>
+        <p>From emergency repairs to full installations — we show up fast, fix it right, and back our work with a satisfaction guarantee.</p>
+        <div class="hero-trust">
+          <span><i class="fas fa-check-circle"></i> 15+ Years Experience</span>
+          <span><i class="fas fa-check-circle"></i> Same-Day Service</span>
+          <span><i class="fas fa-check-circle"></i> Upfront Pricing</span>
+        </div>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Schedule Service</a>
+          <a href="tel:+15550001234" class="btn-outline"><i class="fas fa-phone"></i> Call Now</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-wrap">
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" alt="Professional plumber at work" loading="eager" />
+          <div class="hero-img-badge">
+            <i class="fas fa-star"></i>
+            <div><strong>4.9/5</strong><span>500+ Reviews</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICE CARDS ROW -->
+    <div class="hero-cards">
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-tint"></i></div>
+        <div><strong>Leak Repair</strong><span>Fast detection & fix</span></div>
+      </div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-fire"></i></div>
+        <div><strong>Water Heaters</strong><span>Install & replace</span></div>
+      </div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-toilet"></i></div>
+        <div><strong>Drain Cleaning</strong><span>Clog-free guarantee</span></div>
+      </div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-tools"></i></div>
+        <div><strong>Pipe Work</strong><span>Repair & repiping</span></div>
+      </div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-shower"></i></div>
+        <div><strong>Fixture Install</strong><span>Sinks, tubs & more</span></div>
+      </div>
+      <div class="hcard">
+        <div class="hcard-icon"><i class="fas fa-exclamation-triangle"></i></div>
+        <div><strong>Emergency</strong><span>24/7 response</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2>Complete Plumbing <span class="accent">Solutions</span></h2>
+        <p>From routine maintenance to complex installations — we handle it all with expertise and care.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="sc-icon blue"><i class="fas fa-search-location"></i></div>
+          <h3>Leak Detection</h3>
+          <p>Advanced technology to locate hidden leaks before they cause major damage to your home.</p>
+          <div class="sc-price">From $99</div>
+          <a href="#contact" class="sc-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-icon orange"><i class="fas fa-fire-alt"></i></div>
+          <h3>Water Heater Services</h3>
+          <p>Installation, repair, and replacement of tank and tankless water heater systems.</p>
+          <div class="sc-price">From $149</div>
+          <a href="#contact" class="sc-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-icon blue"><i class="fas fa-wind"></i></div>
+          <h3>Drain Cleaning</h3>
+          <p>Hydro-jetting and snaking to clear the toughest clogs and keep your drains flowing.</p>
+          <div class="sc-price">From $89</div>
+          <a href="#contact" class="sc-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-icon orange"><i class="fas fa-pipe"></i></div>
+          <h3>Pipe Repair & Repiping</h3>
+          <p>Fixing burst pipes, corroded lines, and full home repiping with modern materials.</p>
+          <div class="sc-price">From $199</div>
+          <a href="#contact" class="sc-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-icon blue"><i class="fas fa-bath"></i></div>
+          <h3>Bathroom Plumbing</h3>
+          <p>Toilets, sinks, showers, and full bathroom plumbing installs and remodels.</p>
+          <div class="sc-price">From $129</div>
+          <a href="#contact" class="sc-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card reveal">
+          <div class="sc-icon orange"><i class="fas fa-bolt"></i></div>
+          <h3>Emergency Plumbing</h3>
+          <p>Available around the clock for urgent plumbing situations — we're there when you need us most.</p>
+          <div class="sc-price">24/7 Available</div>
+          <a href="#contact" class="sc-link">Call Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <div class="about-image reveal">
+        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80" alt="Our plumbing team at work" loading="lazy" />
+        <div class="about-badge">
+          <span class="ab-num">15+</span>
+          <span class="ab-label">Years of Excellence</span>
+        </div>
+      </div>
+      <div class="about-content reveal">
+        <span class="section-tag">About Us</span>
+        <h2>Family-Owned, <span class="accent">Community-Trusted</span></h2>
+        <p>Elite Plumbing Services has been serving homeowners and businesses in the Your City area for over 15 years. We built our reputation one job at a time — showing up on time, being honest about what work is needed, and standing behind every repair.</p>
+        <p>Our licensed plumbers are background-checked, uniformed, and equipped with the latest tools to get the job done right the first time. No surprises, no hidden fees.</p>
+        <div class="about-features">
+          <div class="af-item">
+            <i class="fas fa-id-badge"></i>
+            <div><strong>Fully Licensed</strong><span>State licensed & certified plumbers</span></div>
+          </div>
+          <div class="af-item">
+            <i class="fas fa-shield-alt"></i>
+            <div><strong>Fully Insured</strong><span>$2M liability coverage</span></div>
+          </div>
+          <div class="af-item">
+            <i class="fas fa-thumbs-up"></i>
+            <div><strong>Satisfaction Guarantee</strong><span>We make it right or it's free</span></div>
+          </div>
+          <div class="af-item">
+            <i class="fas fa-dollar-sign"></i>
+            <div><strong>Upfront Pricing</strong><span>No hidden fees, ever</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2>Recent <span class="accent">Projects</span></h2>
+        <p>See the quality and craftsmanship we bring to every job.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="port-card reveal">
+          <div class="port-img">
+            <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&q=75" alt="Water heater installation" loading="lazy" />
+            <div class="port-overlay">
+              <span class="port-tag">Water Heater</span>
+              <p>Tankless water heater installation — Your City, ST</p>
+            </div>
+          </div>
+        </div>
+        <div class="port-card reveal">
+          <div class="port-img">
+            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=500&q=75" alt="Bathroom renovation plumbing" loading="lazy" />
+            <div class="port-overlay">
+              <span class="port-tag">Bathroom Remodel</span>
+              <p>Full bathroom plumbing remodel — Your City, ST</p>
+            </div>
+          </div>
+        </div>
+        <div class="port-card reveal">
+          <div class="port-img">
+            <img src="https://images.unsplash.com/photo-1542013936693-884638332954?w=500&q=75" alt="Pipe repair" loading="lazy" />
+            <div class="port-overlay">
+              <span class="port-tag">Pipe Repair</span>
+              <p>Emergency burst pipe repair — Your City, ST</p>
+            </div>
+          </div>
+        </div>
+        <div class="port-card reveal">
+          <div class="port-img">
+            <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=500&q=75" alt="Drain cleaning" loading="lazy" />
+            <div class="port-overlay">
+              <span class="port-tag">Drain Cleaning</span>
+              <p>Commercial hydro-jet drain service — Your City, ST</p>
+            </div>
+          </div>
+        </div>
+        <div class="port-card reveal">
+          <div class="port-img">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=500&q=75" alt="Kitchen plumbing" loading="lazy" />
+            <div class="port-overlay">
+              <span class="port-tag">Kitchen Install</span>
+              <p>Kitchen sink & disposal installation — Your City, ST</p>
+            </div>
+          </div>
+        </div>
+        <div class="port-card reveal">
+          <div class="port-img">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=75" alt="Full repipe" loading="lazy" />
+            <div class="port-overlay">
+              <span class="port-tag">Full Repipe</span>
+              <p>Whole-home copper repiping — Your City, ST</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Reviews</span>
+        <h2>What Our <span class="accent-light">Customers Say</span></h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Called at 11pm for a burst pipe — they were here in 45 minutes. Saved my basement. Absolute lifesavers."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">JR</div>
+            <div><strong>James R.</strong><span>Your City, ST</span></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Replaced our old water heater with a tankless unit. The tech explained everything, kept it clean, and the price was exactly what they quoted."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">ML</div>
+            <div><strong>Maria L.</strong><span>Your City, ST</span></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Best plumbers in the area. They've done 3 jobs for us — always on time, always professional, always fair pricing."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">DK</div>
+            <div><strong>David K.</strong><span>Your City, ST</span></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Fixed a leak that two other plumbers couldn't find. Diagnosed it in 20 minutes with their equipment. Incredible."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">SP</div>
+            <div><strong>Sarah P.</strong><span>Your City, ST</span></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Repiped our entire home on time and under budget. The crew was respectful of our space. Highly recommend."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">TW</div>
+            <div><strong>Tom W.</strong><span>Your City, ST</span></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Quick, clean, and professional. My bathroom remodel plumbing came out perfect. Will use them again without question."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">AC</div>
+            <div><strong>Angela C.</strong><span>Your City, ST</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / SCHEDULE -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Schedule Your <span class="accent">Appointment</span></h2>
+        <p>Book online or call us directly. We respond to all requests within 1 hour during business hours.</p>
+        <div class="contact-details">
+          <div class="cd-item">
+            <i class="fas fa-phone-alt"></i>
+            <div><strong>Phone</strong><span>(555) 000-1234</span></div>
+          </div>
+          <div class="cd-item">
+            <i class="fas fa-envelope"></i>
+            <div><strong>Email</strong><span>service@eliteplumbing.com</span></div>
+          </div>
+          <div class="cd-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div><strong>Service Area</strong><span>Your City & Surrounding Areas, ST</span></div>
+          </div>
+          <div class="cd-item">
+            <i class="fas fa-clock"></i>
+            <div><strong>Hours</strong><span>Mon–Sat 7am–7pm | Emergency 24/7</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contactForm">
+          <h3>Book an Appointment</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Smith" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" placeholder="(555) 000-0000" id="phoneInput" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="john@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Service Needed</label>
+            <select required>
+              <option value="">Select a service...</option>
+              <option>Leak Detection</option>
+              <option>Water Heater Service</option>
+              <option>Drain Cleaning</option>
+              <option>Pipe Repair / Repiping</option>
+              <option>Bathroom Plumbing</option>
+              <option>Emergency Service</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Preferred Date</label>
+              <select id="dateSelect" required>
+                <option value="">Select date...</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Preferred Time</label>
+              <select required>
+                <option value="">Select time...</option>
+                <option>7:00 AM – 9:00 AM</option>
+                <option>9:00 AM – 11:00 AM</option>
+                <option>11:00 AM – 1:00 PM</option>
+                <option>1:00 PM – 3:00 PM</option>
+                <option>3:00 PM – 5:00 PM</option>
+                <option>5:00 PM – 7:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Describe the Issue</label>
+            <textarea placeholder="Tell us a bit about the problem..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Request Appointment <i class="fas fa-arrow-right"></i></button>
+        </form>
+        <div class="form-success" id="formSuccess" style="display:none;">
+          <i class="fas fa-check-circle"></i>
+          <h3>Appointment Requested!</h3>
+          <p>We'll call you within 1 hour to confirm your booking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo white">
+          <span class="logo-icon"><i class="fas fa-wrench"></i></span>
+          <span class="logo-text">Elite <span class="accent">Plumbing</span></span>
+        </a>
+        <p>Licensed, insured, and committed to quality plumbing service in Your City and surrounding areas.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Leak Detection</a></li>
+          <li><a href="#services">Water Heaters</a></li>
+          <li><a href="#services">Drain Cleaning</a></li>
+          <li><a href="#services">Pipe Repair</a></li>
+          <li><a href="#services">Emergency</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#portfolio">Our Work</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-phone"></i> (555) 000-1234</p>
+        <p><i class="fas fa-envelope"></i> service@eliteplumbing.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Your City, ST</p>
+        <div class="footer-emergency">
+          <i class="fas fa-exclamation-circle"></i>
+          <span>24/7 Emergency Line Active</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Elite Plumbing Services. All rights reserved. | Licensed &amp; Insured | Lic# ST-00000</p>
+    </div>
+  </footer>
+
+  <!-- NOTIFICATION -->
+  <div class="notification" id="notification"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
